@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(117, 36, 36);
+}
+#stop-watch{
+    background-color: rgb(129, 49, 49);
+    color: rgb(196, 166, 166);
+   display: inline-block;
+   width: 400px;
+   height: 270px;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control:hover{
+    background-color: rgb(206, 98, 98);
+}
+.control{
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(180, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.control:nth-child(2){
+    width: 70px;
+    height: 70px;
+
+    
+}
+
+
+/* <div id="stop-watch">
+        <h1>00:00:00</h1>
+        <div id="btn">
+            <button class="control">restart</button>
+            <button class="control">start</button>
+            <button class="control">stop</button>
+        </div>
+    </div> */
